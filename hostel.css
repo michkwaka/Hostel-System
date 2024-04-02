@@ -1,0 +1,181 @@
+/* Navigation bar styles */
+.navbar-container {
+    background-color: #f5f5f5;
+    padding: 10px;
+    width: 1700px; /* Adjust width as needed */
+       top: 30px;
+       left: 20px;
+    display: flex;
+    text-decoration: none;
+    /*borders*/
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-collapse: 
+    /*padding*/
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: #333333;
+    
+}
+
+.navbar {
+  display: flex;
+
+}
+
+.navbar li {
+    margin-bottom: 10px;
+    display: flex;
+    text-decoration: none;
+    /*borders*/
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+
+    /*padding*/
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: white;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Image hover effect */
+.home:hover {
+    opacity: 0.8;
+}
+
+/* Other styles */
+.container {
+    margin-left: 0px; /* Ensure content starts after the navigation bar */
+    padding: 0px;
+}
+
+.contact-us {
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+}
+
+.container,
+.contact-us {
+    box-sizing: border-box;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 8px 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+    background-color: #555;
+    color: #fff;
+}
+body{
+    background-color:#f5f5f5;
+}
+
+label,
+input,
+button {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type ="number"],
+input[type="name"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.container1 {
+    max-width: 800px;
+    margin: 70spx auto;
+    background-color: ;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family:  'Montserrat', sans-serif;
+}
+p{
+  font-size: 25px;
+  font-family: 'Nunito', sans-serif;
+  font-style: bold;
+}
+.log{
+    text-align: justify;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.container {
+    max-width: 3000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    background-image: url('building.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+}
+
